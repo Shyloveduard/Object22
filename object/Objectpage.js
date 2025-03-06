@@ -44,5 +44,5 @@ test("perevirka vhody", async () => {
     await loginpage1.clickcookies()
     await loginpage1.login("I_reloaded" , "Red2018_2018")
 
-    await expect(page).toHaveURL('https://app.getgrass.io/dashboard4/');
+    await expect(page).toHaveURL('https://app.getgrass.io/dashboard/');
 })
