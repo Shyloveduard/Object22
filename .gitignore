@@ -1,1 +1,6 @@
+# Ігноруємо node_modules
 node_modules/
+
+# Ігноруємо інші непотрібні файли
+*.log
+*.env
